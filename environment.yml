@@ -1,0 +1,15 @@
+name: example-environment
+channels:
+  - tmap
+  - conda-forge
+dependencies:
+  - conda-forge::python
+  - conda-forge::numpy
+  - conda-forge::pip
+  - conda-forge::pip
+    - pandas
+    - matplotlib
+    - faerun
+    - tmap
+  - tmap::pip
+    - tmap::tmap
