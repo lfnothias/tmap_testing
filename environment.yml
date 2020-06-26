@@ -5,9 +5,9 @@ channels:
 dependencies:
   - python
   - numpy
+  - tmap::tmap
   - pip
   - pip
     - pandas
     - matplotlib
     - faerun
-    - tmap
