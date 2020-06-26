@@ -1,7 +1,4 @@
 name: example-environment
-channels:
-  - tmap
-  - conda-forge
 dependencies:
   - python
   - numpy
